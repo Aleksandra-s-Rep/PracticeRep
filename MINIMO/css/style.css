@@ -161,8 +161,18 @@ main {
 
 .subscription {
     background: #f0f0f0;
-    padding: 67px 30px;
+    padding: 67px 0;
     text-align: center;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.subscription-container {
+    max-width: 1064px;
+    margin: 0 auto;
+    padding: 0 30px;
 }
 
 .subscription h2 {
