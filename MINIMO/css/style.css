@@ -42,19 +42,27 @@ header {
     font-size: 30px;
     letter-spacing: 5px;
     color: #000;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+.logo span {
+    position: relative;
 }
 
 .logo span::after {
     content: "";
-    display: block;
-    width: 120%;
+    position: absolute;
+    width: 100%;
     border-bottom: 1px solid #000;
-    transform: rotate(-60deg) translateY(-10px) translateX(-5px);
+    transform: rotate(-60deg) translateX(-10%);
+    top: 45%;
+    left: -10%;
 }
 
 nav {
-    display: grid;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav ul {
@@ -303,8 +311,4 @@ footer {
         gap: 20px;
     }
 
-    .footer-socials ul {
-        display: flex;
-        gap: 30px;
-    }
 }
