@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Square</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <p>Ширина: <input type="number" id="widthInput" size="10" min="1" max="1000" step="1"/></p>
+    <p>Высота: <input type="number" id="heightInput" size="10" min="1" max="1000" step="1"/></p>
+    <input type="button" value="Случайный цвет" onclick="updateSquare()">
+    <div id="square" class="square"></div>
+</body>
+</html>
