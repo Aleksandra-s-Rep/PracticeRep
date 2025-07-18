@@ -1,0 +1,21 @@
+.comment-box {
+    width: 600px;
+    height: 150px;
+}
+
+.form-label {
+    font-size: 25px;
+}
+
+.form-input {
+    width: 600px;
+    height: 20px;
+}
+
+.error-text {
+    color: red;
+}
+
+.result-text {
+    color: green;
+}

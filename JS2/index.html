@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Оформление заказа</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=<a5db3f31-20d8-4897-8d6f-c9694dbb9652>&lang=ru_RU" type="text/javascript"></script>
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <form id="orderForm">
+        <label for="fullName" class="form-label">ФИО</label><br>
+        <input type="text" id="fullName" placeholder="Обязательное поле" class="form-input"><br>
+        <label for="phone" class="form-label">Телефон</label><br>
+        <input id="phone" placeholder="Обязательное поле" class="form-input"><br>
+        <label for="userEmail" class="form-label">E-mail</label><br>
+        <input id="userEmail" class="form-input"><br>
+        <label class="form-label">Адрес доставки</label><br>
+        <div id="deliveryMap" style="width: 600px; height: 400px"></div><br>
+        <label for="orderComment" class="form-label">Комментарий к заказу</label><br>
+        <textarea id="orderComment" class="comment-box" placeholder="Введите сообщение (до 500 символов)" maxlength="500"></textarea><br>
+    </form>
+    <br>
+    <input type="button" value="Отправить" onclick="validateForm()">
+    <p id="nameError" class="error-text"></p>
+    <p id="phoneError" class="error-text"></p>
+    <p id="emailError" class="error-text"></p>
+    <p id="formResult" class="result-text"></p>
+</body>
+</html>
