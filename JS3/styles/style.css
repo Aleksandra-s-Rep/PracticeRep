@@ -1,0 +1,15 @@
+.filter {
+    width: 100px;
+    height: 20px;
+}
+
+.mainName {
+    font-family: monospace;
+    font-size: 15px;
+    background-color: #C0C0C0;
+}
+
+.button {
+    width: 307px;
+    height: 30px;
+}

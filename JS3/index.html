@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Table</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./JS/script.js" defer></script>
+</head>
+<body>
+    <p>Цена от: <input type="number" min="0" id="priceFrom" class="filter"/> до: <input type="number" min="0" id="priceTo" class="filter"/></p>
+    <input type="button" value="Применить фильтр" onclick="createTable()" class="button">
+    <br><br>
+    <form method="get" action="">
+        <table id="productTable" width="650" border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <th class="mainName">ID</th>
+                <th class="mainName">Название</th>
+                <th class="mainName">Количество</th>
+                <th class="mainName">Цена за единицу</th>
+                <th class="mainName">Сумма</th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
