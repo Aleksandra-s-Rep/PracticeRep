@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простая электронная таблица</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div id="spreadsheet-wrapper">
+        <div id="spreadsheet-container">
+            <table id="spreadsheet">
+                <tbody id="table-body"></tbody>
+            </table>
+            <div class="col-buttons">
+                <button class="spreadsheet-btn" id="add-col">+</button>
+                <button class="spreadsheet-btn" id="remove-col">-</button>
+            </div>
+            <div class="row-buttons">
+                <button class="spreadsheet-btn" id="add-row">+</button>
+                <button class="spreadsheet-btn" id="remove-row">-</button>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
