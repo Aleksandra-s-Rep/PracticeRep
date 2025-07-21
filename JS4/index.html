@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>График загрузки процессора</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="chart-box">
+        <canvas id="cpuChart"></canvas>
+        <div id="errorMessage" class="error" style="display: none;"></div>
+    </div>
+    <div class="stats">
+        <p>Запросов: <span id="totalRequests">0</span></p>
+        <p>Ошибок: <span id="errorRequests">0</span> (<span id="errorPercent">0</span>%)</p>
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+</html>

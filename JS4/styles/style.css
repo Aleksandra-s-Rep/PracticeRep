@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f5f5f5;
+}
+.chart-box {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.stats {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.error {
+    color: red;
+    text-align: center;
+}
